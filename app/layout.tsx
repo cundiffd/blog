@@ -10,23 +10,23 @@ import { doge } from "./doge";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Guillermo Rauch's blog",
+  title: "Dakarai Cundiff's blog",
   description:
-    "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
+    "Dakarai Taye Cundiff is driven by a deep passion for technology and aspires to share this passion with the world.",
   openGraph: {
-    title: "Guillermo Rauchg's blog",
+    title: "Dakarai Cundiff's blog",
     description:
-      "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
-    url: "https://rauchg.com",
-    siteName: "Guillermo Rauchg's blog",
+      "Dakarai Taye Cundiff is driven by a deep passion for technology and aspires to share this passion with the world.",
+    url: "https://dakarai.org",
+    siteName: "Dakarai Cundiff's blog",
     images: ["/opengraph-image"],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@rauchg",
-    creator: "@rauchg",
+    site: "@dakaraicundiff",
+    creator: "@dakaraicundiff",
   },
-  metadataBase: new URL("https://rauchg.com"),
+  metadataBase: new URL("https://dakarai.org"),
 };
 
 export const viewport = {
