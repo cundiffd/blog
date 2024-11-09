@@ -37,16 +37,8 @@ export function Header({ posts }: { posts: Post[] }) {
         <span className="flex-grow">
           <span className="hidden md:inline">
             <span>
-              <a
-                href="https://twitter.com/dakaraicundiff"
-                className="hover:text-gray-800 dark:hover:text-gray-400"
-                target="_blank"
-              >
-                @dakaraicundiff
-              </a>
+              Dakarai,{" "}
             </span>
-
-            <span className="mx-2">|</span>
           </span>
 
           {/* since we will pre-render the relative time, over time it

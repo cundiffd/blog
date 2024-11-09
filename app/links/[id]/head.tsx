@@ -13,8 +13,6 @@ export default function LinkHead({ params }: { params: { id: string } }) {
       <meta property="og:title" content={link.title} />
       <meta property="og:site_name" content="Dakarai Cundiff" />
       <meta property="og:description" content={link.description} />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@dakaraicundiff" />
       <meta
         property="og:image"
         content={`https://dakarai.org/og/${link.image}`}

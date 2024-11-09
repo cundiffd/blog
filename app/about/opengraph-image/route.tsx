@@ -6,11 +6,6 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import commaNumber from "comma-number";
 
-// Image
-const rauchgPhoto = toArrayBuffer(
-  readFileSync(join(process.cwd(), "public/images/rauchg-3d4cecf.gray.jpg"))
-);
-
 // Fonts
 const inter300 = readFileSync(
   join(

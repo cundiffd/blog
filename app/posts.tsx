@@ -33,7 +33,7 @@ export function Posts({ posts: initialPosts }) {
   return (
     <Suspense fallback={null}>
       <main className="max-w-2xl font-mono m-auto mb-10 text-sm">
-        <header className="text-gray-500 dark:text-gray-600 flex items-center text-xs">
+        <header className="px-4 text-gray-500 dark:text-gray-600 flex items-center text-xs">
           <button
             onClick={sortDate}
             className={`w-12 h-9 text-left  ${
@@ -97,7 +97,7 @@ function List({ posts, sort }) {
           <li key={post.id}>
             <Link href={`/${new Date(post.date).getFullYear()}/${post.id}`}>
               <span
-                className={`flex transition-[background-color] hover:bg-gray-100 dark:hover:bg-[#242424] active:bg-gray-200 dark:active:bg-[#222] border-y border-gray-200 dark:border-[#313131]
+                className={`flex px-4 transition-[background-color] hover:bg-gray-100 dark:hover:bg-[#0A0A0A] active:bg-gray-200 dark:active:bg-[#1A1A1A] border-y border-gray-200 dark:border-[#313131]
                 ${!firstOfYear ? "border-t-0" : ""}
                 ${lastOfYear ? "border-b-0" : ""}
               `}

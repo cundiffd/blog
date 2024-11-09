@@ -5,7 +5,6 @@ import { themeEffect } from "./theme-effect";
 import { Analytics } from "./analytics";
 import { Header } from "./header";
 import { Footer } from "./footer";
-import { doge } from "./doge";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,7 +46,7 @@ export default function RootLayout({
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: `(${themeEffect.toString()})();(${doge.toString()})();`,
+            __html: `(${themeEffect.toString()})();`,
           }}
         />
       </head>
