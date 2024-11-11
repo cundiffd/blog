@@ -9,7 +9,7 @@ import { Footer } from "./footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dakarai Cundiff's blog",
+  title: "Dakarai Cundiff",
   description:
     "Dakarai Taye Cundiff is driven by a deep passion for technology and aspires to share this passion with the world.",
   openGraph: {
