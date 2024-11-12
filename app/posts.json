@@ -1,14 +1,9 @@
 {
   "posts": [
     {
-      "id": "cruise-across-the-country",
-      "date": "October 31, 2024",
-      "title": "Cruise Across the Country"
-    },
-    {
-      "id": "love-is",
-      "date": "November 11, 2024",
-      "title": "Love Is"
+      "id": "dancing-with-the-phoenix",
+      "date": "November 12, 2024",
+      "title": "Dancing With The Phoenix (GPT-4o)"
     },
     {
       "id": "invictus",
@@ -16,9 +11,14 @@
       "title": "Invictus"
     },
     {
-      "id": "dancing-with-the-phoenix",
-      "date": "November 12, 2024",
-      "title": "Dancing With The Phoenix (GPT-4o)"
+      "id": "love-is",
+      "date": "November 11, 2024",
+      "title": "Love Is"
+    },
+    {
+      "id": "cruise-across-the-country",
+      "date": "October 31, 2024",
+      "title": "Cruise Across the Country"
     }
   ]
 }
