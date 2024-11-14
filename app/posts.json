@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "from-the-void",
+      "date": "November 14, 2024",
+      "title": "From the Void"
+    },
+    {
       "id": "xpo",
       "date": "November 13, 2024",
       "title": "XPO"
