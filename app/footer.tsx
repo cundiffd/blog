@@ -12,7 +12,7 @@ export function Footer() {
               </A>
           </div>
           <div className="ml-4">
-              <A target="_blank" href="mailto:karai@sptlco.com">
+              <A target="_blank" href="mailto:karaithemighty@outlook.com">
                   Email me
               </A>
           </div>
