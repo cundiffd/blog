@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "reflections",
+      "date": "January 12, 2025",
+      "title": "Reflections: A Path Toward Accountability and Change"
+    },
+    {
       "id": "here-i-am",
       "date": "January 11, 2025",
       "title": "Here I am"
