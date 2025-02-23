@@ -17,11 +17,11 @@ export function Header() {
           About
         </Link>
         <a
-            href="https://buymeacoffee.com/mrcundiff"
+            href="https://sptlco.com/pay/0x47a7a4f4a712e7b61c972db91a7ffc7504d5ada6"
             target="_blank"
             className="inline-flex hover:bg-gray-200 dark:hover:bg-[#313131] active:bg-gray-300 dark:active:bg-[#242424] items-center p-2 rounded-sm transition-[background-color] whitespace-nowrap -mr-2"
         >
-          Buy me a book
+          Buy me credits
         </a>
       </nav>
     </header>
