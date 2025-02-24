@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "a-playlist-for-hard-times",
+      "date": "February 24, 2025",
+      "title": "A Playlist for Hard Times"
+    },
+    {
       "id": "note-to-self",
       "date": "February 23, 2025",
       "title": "Note to Self"
