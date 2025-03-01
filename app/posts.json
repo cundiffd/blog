@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "open-the-window",
+      "date": "March 01, 2025",
+      "title": "Open the Window"
+    },
+    {
       "id": "swahili",
       "date": "February 28, 2025",
       "title": "Swahili"
