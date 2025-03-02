@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "excerpt-bukowski",
+      "date": "March 01, 2025",
+      "title": "Excerpt, Bukowski"
+    },
+    {
       "id": "open-the-window",
       "date": "March 01, 2025",
       "title": "Open the Window"
