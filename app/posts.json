@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "new-character",
+      "date": "March 12, 2025",
+      "title": "New Character"
+    },
+    {
       "id": "screen-time",
       "date": "March 11, 2025",
       "title": "Screen Time"
