@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "side-note",
+      "date": "March 20, 2025",
+      "title": "Side Note"
+    },
+    {
       "id": "daredevil-s1e4",
       "date": "March 19, 2025",
       "title": "Daredevil: Born Again S1E4"
