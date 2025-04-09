@@ -11,6 +11,11 @@ export default async function Layout({ children }) {
       <Header posts={posts} />
 
       {children}
+
+      <p className="flex text-xs text-gray-500 dark:text-gray-500">
+        Do my posts resonate with you? Consider{" "}
+        <a href="https://buymeacoffee.com/mrcundiff">buying me a book</a>.
+      </p>
     </article>
   );
 }
