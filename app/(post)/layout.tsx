@@ -13,7 +13,7 @@ export default async function Layout({ children }) {
       {children}
 
       <p className="flex text-xs text-gray-500 dark:text-gray-500">
-        Do my posts resonate with you? Consider{" "}
+        Do these posts resonate with you? Consider supporting the blog by{" "}
         <a href="https://buymeacoffee.com/mrcundiff">buying me a book</a>.
       </p>
     </article>
