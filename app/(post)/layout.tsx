@@ -12,7 +12,7 @@ export default async function Layout({ children }) {
 
       {children}
 
-      <p className="text-xs mt-2 text-center text-gray-500 dark:text-gray-500">
+      <p className="text-xs pt-4 text-center text-gray-500 dark:text-gray-500">
         You reached the end, thanks for reading.
         <br />
         Do these posts resonate with you? Consider supporting the blog:
