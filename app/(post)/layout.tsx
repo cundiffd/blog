@@ -13,6 +13,8 @@ export default async function Layout({ children }) {
       {children}
 
       <p className="flex text-xs text-gray-500 dark:text-gray-500">
+        You've reached the end.
+        <br />
         Do these posts resonate with you? Consider supporting the blog by{" "}
         <a href="https://buymeacoffee.com/mrcundiff">buying me a book</a>.
       </p>
