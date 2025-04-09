@@ -12,16 +12,12 @@ export default async function Layout({ children }) {
 
       {children}
 
-      <p className="flex text-xs text-gray-500 dark:text-gray-500">
-        You reached the end.
-        <br />
+      <p className="text-xs text-gray-500 dark:text-gray-500">
+        You reached the end, thanks for reading.
         <br />
         Do these posts resonate with you? Consider supporting the blog:
         <br />
-        <a
-          className="!text-white underline"
-          href="https://buymeacoffee.com/mrcundiff"
-        >
+        <a className="!text-white" href="https://buymeacoffee.com/mrcundiff">
           Buy me a book
         </a>
       </p>
