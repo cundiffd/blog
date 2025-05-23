@@ -1,8 +1,11 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { getPosts } from "../../get-posts";
 
 export const dynamic = "force-dynamic";
 
-export async function GET() {
-  return NextResponse.json(await getPosts());
+export async function GET(req: NextRequest) {
+  const url = new URL(req.url);
+  const volume = url.searchParams.get("volume") ?? null;
+
+  return NextResponse.json(await getPosts(Number(volume)));
 }

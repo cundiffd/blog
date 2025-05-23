@@ -4,14 +4,15 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Suspense } from "react";
 import useSWR from "swr";
+import { Post } from "../../get-posts";
 
 type SortSetting = ["date" | "views", "desc" | "asc"];
 
 const fetcher = (url: string) => fetch(url).then(res => res.json());
 
-export function Posts({ posts: initialPosts }) {
+export function Posts({ volume, posts: initialPosts }) {
   const [sort, setSort] = useState<SortSetting>(["date", "desc"]);
-  const { data: posts } = useSWR("/api/posts", fetcher, {
+  const { data: posts } = useSWR(`/api/posts?volume=${volume}`, fetcher, {
     fallbackData: initialPosts,
     refreshInterval: 5000,
   });
@@ -85,8 +86,8 @@ function List({ posts, sort }) {
   }, [posts, sort]);
 
   return (
-    <ul>
-      {sortedPosts.map((post, i: number) => {
+    <ul className="rounded-xl overflow-hidden border border-gray-200 dark:border-[#313131]">
+      {sortedPosts.map((post: Post, i: number) => {
         const year = getYear(post.date);
         const firstOfYear =
           !sortedPosts[i - 1] || getYear(sortedPosts[i - 1].date) !== year;
@@ -95,10 +96,9 @@ function List({ posts, sort }) {
 
         return (
           <li key={post.id}>
-            <Link href={`/${new Date(post.date).getFullYear()}/${post.id}`}>
+            <Link href={`/post/${post.id}`}>
               <span
-                className={`flex px-4 transition-[background-color] hover:bg-gray-100 dark:hover:bg-[#0A0A0A] active:bg-gray-200 dark:active:bg-[#1A1A1A] border-y border-gray-200 dark:border-[#313131]
-                ${!firstOfYear ? "border-t-0" : ""}
+                className={`flex px-4 transition-[background-color] !border-t-0 hover:bg-gray-100 dark:hover:bg-[#0A0A0A] active:bg-gray-200 dark:active:bg-[#1A1A1A] border-y border-gray-200 dark:border-[#313131]
                 ${lastOfYear ? "border-b-0" : ""}
               `}
               >

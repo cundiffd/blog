@@ -36,9 +36,7 @@ export function Header({ posts }: { posts: Post[] }) {
       <p className="font-mono flex text-xs text-gray-500 dark:text-gray-500">
         <span className="flex-grow">
           <span className="hidden md:inline">
-            <span>
-              Dakarai,{" "}
-            </span>
+            <span>Dakarai, </span>
           </span>
 
           {/* since we will pre-render the relative time, over time it
