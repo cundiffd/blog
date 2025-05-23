@@ -70,7 +70,7 @@ export default async function Home() {
         >
           <Link
             href={`/volume/${vol.volume}`}
-            className="flex flex-col size-full items-center justify-center"
+            className="flex flex-col w-full h-full items-center justify-center"
           >
             <h2 className="text-4xl font-serif dark:text-gray-100">
               {vol.roman}
