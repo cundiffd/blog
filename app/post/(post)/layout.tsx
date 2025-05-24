@@ -18,7 +18,7 @@ export default async function Layout({ children }) {
         Do these posts resonate with you? Consider supporting the blog:
         <br />
         <a
-          className="dark:!text-white"
+          className="!text-black dark:!text-white"
           href="https://buymeacoffee.com/mrcundiff"
         >
           Buy me a book
