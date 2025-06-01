@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "postponing-xpo",
+      "date": "May 31, 2025",
+      "volume": 2,
+      "title": "XPO, May 31"
+    },
+    {
       "id": "generations-of-adam",
       "date": "May 23, 2025",
       "volume": 2,
