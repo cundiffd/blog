@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "reading-list-q3",
+      "date": "July 15, 2025",
+      "volume": 2,
+      "title": "Q3 Reading List, July 15"
+    },
+    {
       "id": "postponing-xpo",
       "date": "May 31, 2025",
       "volume": 2,
