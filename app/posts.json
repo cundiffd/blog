@@ -1,10 +1,16 @@
 {
   "posts": [
     {
+      "id": "indecision",
+      "date": "October 7, 2025",
+      "volume": 2,
+      "title": "Indecision, October 7"
+    },
+    {
       "id": "too-old",
       "date": "September 16, 2025",
       "volume": 2,
-      "title": "Too Old"
+      "title": "Too Old, September 16"
     },
     {
       "id": "reading-list-q3",
