@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "switchyard",
+      "date": "June 30, 2024",
+      "volume": 2,
+      "title": "Switchyard, June 2024"
+    },
+    {
       "id": "indecision",
       "date": "October 7, 2025",
       "volume": 2,
