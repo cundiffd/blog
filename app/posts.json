@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "id": "temporal-ecs-neural-dynamics",
+      "date": "October 28, 2025",
+      "volume": 2,
+      "title": "Notes on Temporal ECS Neural Dynamics, October 28"
+    },
+    {
       "id": "switchyard",
       "date": "October 18, 2025",
       "volume": 2,
